@@ -1,0 +1,16 @@
+version: 2
+  
+sources:
+  - name: stage_tables
+    database: RAW
+    schema: sap
+    tables:
+      - name: EKKO
+      - name: EKPO
+      - name: EBAN
+      - name: MAKT
+      - name: T_001
+      - name: T_001_W
+      - name: MARA
+      - name: KNA_1
+      - name: LFA_1
